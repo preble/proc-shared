@@ -152,8 +152,102 @@ PRCoils:
     flashersInsert:
         number: C28
 PRLamps:
+    perp1W:
+        number: L11
+    perp1R:
+        number: L12
+    perp1Y:
+        number: L13
+    perp1G:
+        number: L14
+    perp2W:
+        number: L15
+    perp2R:
+        number: L16
+    perp2Y:
+        number: L17
+    perp2G:
+        number: L18
+    perp4W:
+        number: L21
+    perp4R:
+        number: L22
+    perp4Y:
+        number: L23
+    perp4G:
+        number: L24
+    perp5W:
+        number: L25
+    perp5R:
+        number: L26
+    perp5Y:
+        number: L27
+    perp5G:
+        number: L28
+    perp3W:
+        number: L31
+    perp3R:
+        number: L32
+    perp3Y:
+        number: L33
+    perp3G:
+        number: L34
+    lock1:
+        number: L35
+    lock2:
+        number: L36
+    lock3:
+        number: L37
     buyIn:
         number: L38
+    crimeLevel4:
+        number: L41
+    crimeLevel3:
+        number: L42
+    crimeLevel2:
+        number: L43
+    crimeLevel1:
+        number: L44
+    meltdown:
+        number: L45
+    impersonator:
+        number: L46
+    battleTank:
+        number: L47
+    stopMeltdown:
+        number: L48
+    stakeout:
+        number: L51
+    safecracker:
+        number: L52
+    pursuit:
+        number: L53
+    ultimateChallenge:
+        number: L54
+    manhunt:
+        number: L55
+    blackout:
+        number: L56
+    sniper:
+        number: L57
+    pickAPrize:
+        number: L58
+    extraBall2:
+        number: L61
+    rightStartFeature:
+        number: L62
+    tankCenter:
+        number: L63
+    awardSniper:
+        number: L64
+    airRade:
+        number: L65
+    leftCenterFeature:
+        number: L66
+    tankLeft:
+        number: L67
+    mystery:
+        number: L68
     dropTargetJ:
         number: L71
     dropTargetU:
@@ -164,8 +258,24 @@ PRLamps:
         number: L74
     dropTargetE:
         number: L75
+    awardSafecracker:
+        number: L76
     multiballJackpot:
         number: L77
+    awardBadImpersonator:
+        number: L78
+    awardStakeout:
+        number: L81
+    blackoutJackpot:
+        number: L82
+    drainShield:
+        number: L83
+    judgeAgain:
+        number: L84
+    advanceCrimeLevel:
+        number: L85
+    tankRight:
+        number: L86
     superGame:
         number: L87
     startButton:
