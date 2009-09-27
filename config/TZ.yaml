@@ -1,6 +1,7 @@
 # P-ROC Game Description file for Twilight Zone
 PRGame:
     machineType: wpc
+    numBalls: 6
 PRFlippers:
     - flipperLwR
     - flipperLwL
