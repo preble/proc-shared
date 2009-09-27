@@ -1,6 +1,7 @@
 # P-ROC Game Description file for Judge Dredd
 PRGame:
     machineType: wpc
+    numBalls: 6
 PRFlippers:
     - flipperLwR
     - flipperLwL
