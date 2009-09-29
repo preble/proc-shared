@@ -1,6 +1,6 @@
 # P-ROC Game Description file for Pirate of the Caribbean
 PRGame:
-    machineType: stern
+    machineType: sternSAM
     numBalls: 4
 PRFlippers:
     - flipperLwR
