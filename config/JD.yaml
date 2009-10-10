@@ -33,24 +33,50 @@ PRSwitches:
         number: S12
     startButton:
         number: S13
+    tilt:
+        number: S14
     shooterL:
         number: S15
     outlaneL:
         number: S16
     inlaneL:
         number: S17
+    threeBankTargets:
+        number: S18
+    slamTilt:
+        number: S21
     coinDoor:
         number: S22
+    ticketDispenser:
+        number: S23
+    alwaysClosed:
+        number: S24
+    rightTopPost:
+        number: S25
+    captiveBall1:
+        number: S26
+    mystery:
+        number: S27
+    ballOnMagnet:
+        number: S28
+    buyIn:
+        number: S31
+    leftRampEnter:
+        number: S32
+    leftRollover:
+        number: S33
     inlaneR:
         number: S34
+    topCenterRollover:
+        number: S35
+    leftScorePost:
+        number: S36
     subwayEnter1:
         number: S37
     subwayEnter2:
         number: S38
     shooterR:
         number: S41
-    buyIn:
-        number: S31
     outlaneR:
         number: S42
     inlaneFarR:
@@ -73,12 +99,30 @@ PRSwitches:
         number: S57
     dropTargetE:
         number: S58
+    globePosition1: 
+        number: S61
+    leftRampEnter: 
+        number: S62
+    leftRampToLock:
+        number: S63
+    leftRampExit:
+        number: S64
+    rightRampEnter:
+        number: S65
+    centerRampExit:
+        number: S66
+    captiveBall3:
+        number: S68
     magnetOverRing:
         number: S71
+    topRightOpto:
+        number: S72
     popperL:
         number: S73
     popperR:
         number: S74
+    topRampExit:
+        number: S75
     rightRampExit:
         number: S76
     globePosition2:
@@ -291,3 +335,48 @@ PRLamps:
         number: G04
     gi05:
         number: G05
+
+PRBallSave:
+    pulseCoils: [popperL, popperR, resetDropTarget, 
+                 shooterR, shooterL, slingL, slingR]
+    resetSwitches:
+        shooterL: open
+        outlaneL: open
+        inlaneL: open
+        threeBankTargets: open
+        rightTopPost: open
+        captiveBall1: open
+        mystery: open
+        leftRampEnter: closed
+        leftRollover: open
+        inlaneR: open
+        topCenterRollover: open
+        leftScorePost: open
+        subwayEnter1: open
+        subwayEnter2: open
+        shooterR: open
+        outlaneR: open
+        inlaneFarR: open
+        slingL: open
+        slingR: open
+        captiveBall2: open
+        dropTargetJ: open
+        dropTargetU: open
+        dropTargetD: open
+        dropTargetG: open
+        dropTargetE: open
+        leftRampEnter: closed
+        leftRampToLock: closed
+        leftRampExit: closed
+        rightRampEnter: closed
+        centerRampExit: closed
+        captiveBall3: open
+        topRightOpto: closed 
+        topRampExit: closed
+        rightRampExit: closed
+    stopSwitches:
+        shooterR: closed
+        shooterL: closed
+        # don't ball search if a flipper button is pressed
+        flipperLwL: closed
+        flipperLwR: closed
