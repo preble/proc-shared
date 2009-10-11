@@ -43,21 +43,21 @@ PRSwitches:
         number: S58
 PRCoils:
     flipperLwRMain: 
-        number: 32
+        number: FLRM
     flipperLwRHold: 
-        number: 33
+        number: FLRH
     flipperLwLMain: 
-        number: 34
+        number: FLLM
     flipperLwLHold: 
-        number: 35
+        number: FLLH
     flipperUpRMain: 
-        number: 36
+        number: FURM
     flipperUpRHold: 
-        number: 37
+        number: FURH
     flipperUpLMain: 
-        number: 38
+        number: FULM
     flipperUpLHold: 
-        number: 39
+        number: FULH
     slingL:
         number: C11
     slingR: 
