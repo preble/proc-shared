@@ -11,6 +11,16 @@ PRBumpers:
     - slingL
     - slingR
 PRSwitches:
+    # **** Format ****
+    # name:
+    #   number: <number>
+    #   type: <type>
+    #
+    #   <number> can be: SFx (Flipper switch, labeled Fx in WPC manual
+    #                    SDx (Dedicated switch, labeled SDx in WPC manual
+    #                    Sx  (Matrix switch, labeled x in WPC manual
+    #   <type> can be: 'NO' (normally open.  This is the default; so no need to use this)
+    #                  'NC' (normally closed.  Common for optos)
     flipperLwR:
         number: SF2
     flipperLwL: 
@@ -63,6 +73,7 @@ PRSwitches:
         number: S31
     leftRampEnter:
         number: S32
+        type: 'NC'
     leftRollover:
         number: S33
     inlaneR:
@@ -91,73 +102,98 @@ PRSwitches:
         number: S53
     dropTargetJ:
         number: S54
+        type: 'NC'
     dropTargetU:
         number: S55
+        type: 'NC'
     dropTargetD:
         number: S56
+        type: 'NC'
     dropTargetG:
         number: S57
+        type: 'NC'
     dropTargetE:
         number: S58
+        type: 'NC'
     globePosition1: 
         number: S61
+        type: 'NC'
     leftRampEnter: 
         number: S62
+        type: 'NC'
     leftRampToLock:
         number: S63
+        type: 'NC'
     leftRampExit:
         number: S64
+        type: 'NC'
     rightRampEnter:
         number: S65
+        type: 'NC'
     centerRampExit:
         number: S66
+        type: 'NC'
     captiveBall3:
         number: S68
     magnetOverRing:
         number: S71
+        type: 'NC'
     topRightOpto:
         number: S72
+        type: 'NC'
     popperL:
         number: S73
+        type: 'NC'
     popperR:
         number: S74
+        type: 'NC'
     topRampExit:
         number: S75
+        type: 'NC'
     rightRampExit:
         number: S76
+        type: 'NC'
     globePosition2:
         number: S77
+        type: 'NC'
     trough1:
         number: S81
+        type: 'NC'
     trough2:
         number: S82
+        type: 'NC'
     trough3:
         number: S83
+        type: 'NC'
     trough4:
         number: S84
+        type: 'NC'
     trough5:
         number: S85
+        type: 'NC'
     trough6:
         number: S86
+        type: 'NC'
     troughTop:
         number: S87
+        type: 'NC'
 PRCoils:
     flipperLwRMain: 
-        number: 32
+        number: FLRM
     flipperLwRHold: 
-        number: 33
+        number: FLRH
     flipperLwLMain: 
-        number: 34
+        number: FLLM
     flipperLwLHold: 
-        number: 35
+        number: FLLH
     flipperUpRMain: 
-        number: 36
+        number: FURM
     flipperUpRHold: 
-        number: 37
+        number: FURH
     flipperUpLMain: 
-        number: 38
+        number: FULM
     flipperUpLHold: 
-        number: 39
+        number: FULH
     craneMagnet:
         number: C01
     popperL:
