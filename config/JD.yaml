@@ -2,6 +2,7 @@
 PRGame:
     machineType: wpc
     numBalls: 6
+    deadworld_mod_installed: True
 PRFlippers:
     - flipperLwR
     - flipperLwL
@@ -94,6 +95,14 @@ PRSwitches:
         number: S43
     superGame:
         number: S44
+    s45:
+        number: S45
+    s46:
+        number: S46
+    s47:
+        number: S47
+    s48:
+        number: S48
     slingL: 
         number: S51
     slingR: 
@@ -118,7 +127,7 @@ PRSwitches:
     globePosition1: 
         number: S61
         type: 'NC'
-    leftRampEnter: 
+    craneRelease: 
         number: S62
         type: 'NC'
     leftRampToLock:
@@ -133,6 +142,8 @@ PRSwitches:
     centerRampExit:
         number: S66
         type: 'NC'
+    s67:
+        number: S67
     captiveBall3:
         number: S68
     magnetOverRing:
@@ -156,6 +167,8 @@ PRSwitches:
     globePosition2:
         number: S77
         type: 'NC'
+    s78:
+        number: S78
     trough1:
         number: S81
         type: 'NC'
@@ -177,6 +190,8 @@ PRSwitches:
     troughTop:
         number: S87
         type: 'NC'
+    s88:
+        number: S88
 PRCoils:
     flipperLwRMain: 
         number: FLRM
@@ -210,6 +225,8 @@ PRCoils:
         number: C08
     shooterL:
         number: C09
+    diverter:
+        number: C11
     trough:
         number: C13
     slingL: 
