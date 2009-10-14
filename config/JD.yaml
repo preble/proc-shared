@@ -225,6 +225,8 @@ PRCoils:
         number: C08
     shooterL:
         number: C09
+    tripDropTarget:
+        number: C10
     diverter:
         number: C11
     trough:
@@ -233,6 +235,14 @@ PRCoils:
         number: C15
     slingR: 
         number: C16
+    flasherFire:
+        number: C17
+    flasherFear:
+        number: C18
+    flasherDeath:
+        number: C19
+    flasherMortis:
+        number: C20
     flasherPursuitL:
         number: C21
     flasherPursuitR:
