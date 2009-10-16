@@ -2,6 +2,7 @@
 PRGame:
     machineType: sternSAM
     numBalls: 4
+    deadworld_mod_installed: False
 PRFlippers:
     - flipperLwR
     - flipperLwL
@@ -354,3 +355,13 @@ PRLamps:
         number: L79
     rightTopLane:
         number: L80
+
+PRBallSave:
+    pulseCoils: [shooterR]
+    resetSwitches:
+        shooterR: open
+    stopSwitches:
+        shooterR: closed
+        # don't ball search if a flipper button is pressed
+        flipperLwL: closed
+        flipperLwR: closed
