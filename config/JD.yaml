@@ -2,7 +2,6 @@
 PRGame:
     machineType: wpc
     numBalls: 6
-    deadworld_mod_installed: True
 PRFlippers:
     - flipperLwR
     - flipperLwL
