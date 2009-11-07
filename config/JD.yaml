@@ -427,6 +427,7 @@ PRBallSave:
         dropTargetD: open
         dropTargetG: open
         dropTargetE: open
+        trough1: closed
         leftRampEnter: closed
         leftRampToLock: closed
         leftRampExit: closed
@@ -436,6 +437,7 @@ PRBallSave:
         topRightOpto: closed 
         topRampExit: closed
         rightRampExit: closed
+        globePosition2: open
     stopSwitches:
         shooterR: closed
         shooterL: closed
