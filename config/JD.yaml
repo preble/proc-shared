@@ -125,7 +125,7 @@ PRSwitches:
         type: 'NC'
     globePosition1: 
         number: S61
-        type: 'NC'
+        type: 'NO' # Manual says NC
     craneRelease: 
         number: S62
         type: 'NC'
@@ -147,7 +147,7 @@ PRSwitches:
         number: S68
     magnetOverRing:
         number: S71
-        type: 'NC'
+        type: 'NO' # Manual says NC
     topRightOpto:
         number: S72
         type: 'NC'
@@ -165,7 +165,7 @@ PRSwitches:
         type: 'NC'
     globePosition2:
         number: S77
-        type: 'NC'
+        type: 'NO' # Manual says NC
     s78:
         number: S78
     trough1:
