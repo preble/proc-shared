@@ -141,8 +141,9 @@ PRSwitches:
     centerRampExit:
         number: S66
         type: 'NC'
-    s67:
+    leftRampEnter:
         number: S67
+        type: 'NC'
     captiveBall3:
         number: S68
     magnetOverRing:
