@@ -141,7 +141,7 @@ PRSwitches:
     centerRampExit:
         number: S66
         type: 'NC'
-    leftRampEnter:
+    leftRampEnterAlt:
         number: S67
         type: 'NC'
     captiveBall3:
