@@ -221,6 +221,8 @@ PRCoils:
         number: C05
     globeMotor:
         number: C06
+    knocker:
+        number: C07
     shooterR:
         number: C08
     shooterL:
