@@ -444,6 +444,8 @@ PRBallSave:
     stopSwitches:
         shooterR: closed
         shooterL: closed
+        popperL: active
+        popperR: active
         # don't ball search if a flipper button is pressed
         flipperLwL: closed
         flipperLwR: closed
