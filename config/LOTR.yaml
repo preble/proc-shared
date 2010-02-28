@@ -360,3 +360,13 @@ PRLamps:
         number: L79
     startButton:
         number: L80
+
+PRBallSave:
+    pulseCoils: [shooterR]
+    resetSwitches:
+        shooterR: open
+    stopSwitches:
+        shooterR: closed
+        # don't ball search if a flipper button is pressed
+        flipperLwL: closed
+        flipperLwR: closed
