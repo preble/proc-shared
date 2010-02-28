@@ -308,7 +308,7 @@ PRLamps:
         number: L36
     lock3:
         number: L37
-    buyIn:
+    superGame:
         number: L38
     crimeLevel4:
         number: L41
@@ -386,7 +386,7 @@ PRLamps:
         number: L85
     tankRight:
         number: L86
-    superGame:
+    buyIn:
         number: L87
     startButton:
         number: L88
