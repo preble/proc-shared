@@ -1,0 +1,405 @@
+# P-ROC Game Description file for Medieval Madness
+PRGame:
+    machineType: wpc95
+    numBalls: 4
+PRFlippers:
+    - flipperLwR
+    - flipperLwL
+PRBumpers:
+    - slingL
+    - slingR
+    - popL
+    - popR
+    - popB
+PRSwitches:
+    # **** Format ****
+    # name:
+    #   number: <number>
+    #   type: <type>
+    #
+    #   <number> can be: SFx (Flipper switch, labeled Fx in WPC manual
+    #                    SDx (Dedicated switch, labeled SDx in WPC manual
+    #                    Sx  (Matrix switch, labeled x in WPC manual
+    #   <type> can be: 'NO' (normally open.  This is the default; so no need to use this)
+    #                  'NC' (normally closed.  Common for optos)
+    flipperLwR:
+        number: SF2
+    flipperLwL: 
+        number: SF4
+    exit: 
+        number: SD5
+    down: 
+        number: SD6
+    up: 
+        number: SD7
+    enter: 
+        number: SD8
+    launch:
+        number: S11
+    catapultTarget:
+        number: S12
+    startButton:
+        number: S13
+    tilt:
+        number: S14
+    trollL:
+        number: S15
+    outlaneL:
+        number: S16
+    inlaneR:
+        number: S17
+    shooterR:
+        number: S18
+    slamTilt:
+        number: S21
+    coinDoor:
+        number: S22
+    ticketDispenser:
+        number: S23
+    alwaysClosed:
+        number: S24
+    trollR:
+        number: S25
+    inlaneL:
+        number: S26
+    outlaneR:
+        number: S27
+    ejectR:
+        number: S28
+    troughJam:
+        number: S31
+        type: 'NC'
+    trough1:
+        number: S32
+        type: 'NC'
+    trough2:
+        number: S33
+        type: 'NC'
+    trough3:
+        number: S34
+        type: 'NC'
+    trough4:
+        number: S35
+        type: 'NC'
+    popperL:
+        number: S36
+        type: 'NC'
+    castleGate:
+        number: S37
+        type: 'NC'
+    catapult:
+        number: S38
+    moatEnter:
+        number: S41
+        type: 'NC'
+    s42:
+        number: S42
+    s43:
+        number: S43
+    castleLock:
+        number: S44
+    trollDownL:
+        number: S45
+    trollDownR:
+        number: S46
+    leftTopLane:
+        number: S47
+    rightTopLane:
+        number: S48
+    slingL: 
+        number: S51
+    slingR: 
+        number: S52
+    popL:
+        number: S53
+    popB:
+        number: S54
+    popR:
+        number: S55
+    drawbridgeUp:
+        number: S56
+    drawbridgeDown:
+        number: S57
+    towerExit:
+        number: S58
+    leftRampEnter: 
+        number: S61
+    leftRampExit: 
+        number: S62
+    rightRampEnter:
+        number: S63
+    rightRampExit:
+        number: S64
+    leftLoopLow:
+        number: S65
+    leftLoopHigh:
+        number: S66
+    rightLoopLow:
+        number: S67
+    rightLoopHigh:
+        number: S68
+    rightBankTop:
+        number: S71
+    rightBankMiddle:
+        number: S72
+    rightBankBottom:
+        number: S73
+    leftTrollUp:
+        number: S74
+    rightTrollUp:
+        number: S75
+    s76:
+        number: S76
+    s77:
+        number: S77
+    s78:
+        number: S78
+    s81:
+        number: S81
+    s82:
+        number: S82
+    s83:
+        number: S83
+    s84:
+        number: S84
+    s85:
+        number: S85
+    s86:
+        number: S86
+    s87:
+        number: S87
+    s88:
+        number: S88
+PRCoils:
+    flipperLwRMain: 
+        number: FLRM
+    flipperLwRHold: 
+        number: FLRH
+    flipperLwLMain: 
+        number: FLLM
+    flipperLwLHold: 
+        number: FLLH
+    trollLMain: 
+        number: FURM
+    trollLHold: 
+        number: FURH
+    trollRMain: 
+        number: FULM
+    trollRHold: 
+        number: FULH
+    shooterR:
+        number: C01
+    trough:
+        number: C02
+    popperL:
+        number: C03
+    castle:
+        number: C04
+    castleGatePower:
+        number: C05
+    castleGateHold:
+        number: C06
+    knocker:
+        number: C07
+    catapult:
+        number: C08
+    ejectR:
+        number: C09
+    slingL:
+        number: C10
+    slingR:
+        number: C11
+    popL:
+        number: C12
+    popB:
+        number: C13
+    popR: 
+        number: C14
+    towerDiverterPower: 
+        number: C15
+    towerDiverterHold: 
+        number: C16
+    flasherLeftSideLow:
+        number: C17
+    flasherLeftRamp:
+        number: C18
+    flasherLeftSideHigh:
+        number: C19
+    flasherRightSideHigh:
+        number: C20
+    flasherRightRamp:
+        number: C21
+    flasherCastleRightSide:
+        number: C22
+    flasherRightSideLow:
+        number: C23
+    flasherMoat:
+        number: C24
+    flasherCastleLeftSide:
+        number: C25
+    towerLockPost:
+        number: C26
+    rightGate:
+        number: C27
+    leftGate:
+        number: C28
+PRLamps:
+    rightBankTop:
+        number: L11
+    rightBankMiddle:
+        number: L12
+    rightBankBottom:
+        number: L13
+    rightRampJackpot:
+        number: L14
+    saveTheDamsel:
+        number: L15
+    dragonDeath:
+        number: L16
+    dragonSnack:
+        number: L17
+    dragonBreath:
+        number: L18
+    rightLoopJackpot:
+        number: L21
+    rightJoustVictory:
+        number: L22
+    rightClash:
+        number: L23
+    rightCharge:
+        number: L24
+    patronOfThePeasants:
+        number: L25
+    catapultAce:
+        number: L26
+    joustChampion:
+        number: L27
+    castleCrusher:
+        number: L28
+    trolls:
+        number: L31
+    extraBall:
+        number: L32
+    merlinsMagic:
+        number: L33
+    trollMadness:
+        number: L34
+    damselMadness:
+        number: L35
+    peasantMadness:
+        number: L36
+    catapultMadness:
+        number: L37
+    joustMadness:
+        number: L38
+    leftLoopJackpot:
+        number: L41
+    leftJoustVictory:
+        number: L42
+    leftClash:
+        number: L43
+    leftCharge:
+        number: L44
+    catapultJackpot:
+        number: L45
+    catapultSlam:
+        number: L46
+    bam:
+        number: L47
+    wam:
+        number: L48
+    centerArrow:
+        number: L51
+    battleForTheKingdom:
+        number: L52
+    masterOfTrolls:
+        number: L53
+    defenderOfDamsels:
+        number: L54
+    leftTopLane:
+        number: L55
+    rightTopLane:
+        number: L56
+    leftTrollTarget:
+        number: L57
+    rightTrollTarget:
+        number: L58
+    francoisDGrimm:
+        number: L61
+    kingOfPayne:
+        number: L62
+    earlOfEgo:
+        number: L63
+    leftRampJackpot:
+        number: L64
+    revoltingPeasants:
+        number: L65
+    uglyRiot:
+        number: L66
+    angryMob:
+        number: L67
+    rabbleRouser:
+        number: L68
+    howardHurtz:
+        number: L71
+    magicShield:
+        number: L72
+    sirPsycho:
+        number: L73
+    dukeOfBourbon:
+        number: L74
+    castleLock2:
+        number: L75
+    castleLock1:
+        number: L76
+    superJackpot:
+        number: L77
+    superJets:
+        number: L78
+    outlaneR:
+        number: L81
+    inlaneR:
+        number: L82
+    inlaneL:
+        number: L83
+    outlaneL:
+        number: L84
+    castleLock3:
+        number: L85
+    shootAgain:
+        number: L86
+    launchButton:
+        number: L87
+    startButton:
+        number: L88
+    gi01:
+        number: G01
+    gi02:
+        number: G02
+    gi03:
+        number: G03
+    gi04:
+        number: G04
+    gi05:
+        number: G05
+
+PRBallSave:
+    pulseCoils: [popperL,slingL, slingR]
+    resetSwitches:
+        outlaneL: open
+        inlaneL: open
+        inlaneR: open
+        inlaneL: open
+        leftTopLane: open
+        rightTopLane: open
+        slingL: open
+        slingR: open
+        leftRampEnter: closed
+        leftRampExit: closed
+        rightRampEnter: closed
+        rightRampExit: closed
+    stopSwitches:
+        shooterR: closed
+        # don't ball search if a flipper button is pressed
+        flipperLwL: closed
+        flipperLwR: closed
