@@ -145,12 +145,16 @@ PRCoils:
         number: C02
     leftVUK:
         number: C03
+        pulseTime: 15
     topVUK:
         number: C04
     rightVUK:
         number: C05
+        pulseTime: 15
     ringMagnet:
         number: C06
+        patterOnTime: 5 
+        patterOffTime: 20 
     rightTower:
         number: C07
     loopDiverter:
