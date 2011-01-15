@@ -243,6 +243,8 @@ PRCoils:
         number: C27
     leftGate:
         number: C28
+    drawbridgeMotor:
+        number: C37
 PRLamps:
     rightBankTop:
         number: L11
