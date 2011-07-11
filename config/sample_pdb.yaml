@@ -1,0 +1,382 @@
+# P-ROC Game Description file for a sample PDB setup.
+# All Coil/Lamp/Switch numbers are the P-ROC numbers.  When using
+# 'custom' machineType, there is no mapping like there is with WPC/Stern.
+PRGame:
+    machineType: custom
+    numBalls: 6
+PRFlippers:
+    - flipperLwR
+    - flipperLwL
+PRBumpers:
+PRSwitches:
+    # **** Format ****
+    # name:
+    #   number: <number>
+    #   type: <type>
+    #
+    #   <number> can be: SFx (Flipper switch, labeled Fx in WPC manual
+    #                    SDx (Dedicated switch, labeled SDx in WPC manual
+    #                    Sx  (Matrix switch, labeled x in WPC manual
+    #   <type> can be: 'NO' (normally open.  This is the default; so no need to use this)
+    #                  'NC' (normally closed.  Common for optos)
+    flipperLwL: 
+        number: 1
+    flipperLwR:
+        number: 3
+PRCoils:
+    flipperLwRMain: 
+        number: 32
+    flipperLwRHold: 
+        number: 33
+    flipperLwLMain: 
+        number: 34
+    flipperLwLHold: 
+        number: 35
+PRLamps:
+#    led00:
+#        number: 32
+#    led01:
+#        number: 33
+#    led02:
+#        number: 34
+#    led03:
+#        number: 35
+#    led04:
+#        number: 36
+#    led05:
+#        number: 37
+#    led06:
+#        number: 38
+#    led07:
+#        number: 39
+
+    led10:
+        number: 40
+    led11:
+        number: 41
+    led12:
+        number: 42
+    led13:
+        number: 43
+    led14:
+        number: 44
+    led15:
+        number: 45
+    led16:
+        number: 46
+    led17:
+        number: 47
+
+    led20:
+        number: 48
+    led21:
+        number: 49
+    led22:
+        number: 50
+    led23:
+        number: 51
+    led24:
+        number: 52
+    led25:
+        number: 53
+    led26:
+        number: 54
+    led27:
+        number: 55
+
+    led30:
+        number: 56
+    led31:
+        number: 57
+    led32:
+        number: 58
+    led33:
+        number: 59
+    led34:
+        number: 60
+    led35:
+        number: 61
+    led36:
+        number: 62
+    led37:
+        number: 63
+
+    led40:
+        number: 80
+    led41:
+        number: 81
+    led42:
+        number: 82
+    led43:
+        number: 83
+    led44:
+        number: 84
+    led45:
+        number: 85
+    led46:
+        number: 86
+    led47:
+        number: 87
+
+    led50:
+        number: 88
+    led51:
+        number: 89
+    led52:
+        number: 90
+    led53:
+        number: 91
+    led54:
+        number: 92
+    led55:
+        number: 93
+    led56:
+        number: 94
+    led57:
+        number: 95
+
+    led60:
+        number: 96
+    led61:
+        number: 97
+    led62:
+        number: 98
+    led63:
+        number: 99
+    led64:
+        number: 100
+    led65:
+        number: 101
+    led66:
+        number: 102
+    led67:
+        number: 103
+
+    led70:
+        number: 104
+    led71:
+        number: 105
+    led72:
+        number: 106
+    led73:
+        number: 107
+    led74:
+        number: 108
+    led75:
+        number: 109
+    led76:
+        number: 110
+    led77:
+        number: 111
+
+    led80:
+        number: 112
+    led81:
+        number: 113
+    led82:
+        number: 114
+    led83:
+        number: 115
+    led84:
+        number: 116
+    led85:
+        number: 117
+    led86:
+        number: 118
+    led87:
+        number: 119
+
+    led90:
+        number: 120
+    led91:
+        number: 121
+    led92:
+        number: 122
+    led93:
+        number: 123
+    led94:
+        number: 124
+    led95:
+        number: 125
+    led96:
+        number: 126
+    led97:
+        number: 127
+
+    led100:
+        number: 128
+    led101:
+        number: 129
+    led102:
+        number: 130
+    led103:
+        number: 131
+    led104:
+        number: 132
+    led105:
+        number: 133
+    led106:
+        number: 134
+    led107:
+        number: 135
+
+    led110:
+        number: 136
+    led111:
+        number: 137
+    led112:
+        number: 138
+    led113:
+        number: 139
+    led114:
+        number: 140
+    led115:
+        number: 141
+    led116:
+        number: 142
+    led117:
+        number: 143
+
+    led120:
+        number: 144
+    led121:
+        number: 145
+    led122:
+        number: 146
+    led123:
+        number: 147
+    led124:
+        number: 148
+    led125:
+        number: 149
+    led126:
+        number: 150
+    led127:
+        number: 151
+
+    led130:
+        number: 152
+    led131:
+        number: 153
+    led132:
+        number: 154
+    led133:
+        number: 155
+    led134:
+        number: 156
+    led135:
+        number: 157
+    led136:
+        number: 158
+    led137:
+        number: 159
+
+    led140:
+        number: 160
+    led141:
+        number: 161
+    led142:
+        number: 162
+    led143:
+        number: 163
+    led144:
+        number: 164
+    led145:
+        number: 165
+    led146:
+        number: 166
+    led147:
+        number: 167
+
+    led150:
+        number: 168
+    led151:
+        number: 169
+    led152:
+        number: 170
+    led153:
+        number: 171
+    led154:
+        number: 172
+    led155:
+        number: 173
+    led156:
+        number: 174
+    led157:
+        number: 175
+
+    led160:
+        number: 176
+    led161:
+        number: 177
+    led162:
+        number: 178
+    led163:
+        number: 179
+    led164:
+        number: 180
+    led165:
+        number: 181
+    led166:
+        number: 182
+    led167:
+        number: 183
+
+    led170:
+        number: 184
+    led171:
+        number: 185
+    led172:
+        number: 186
+    led173:
+        number: 187
+    led174:
+        number: 188
+    led175:
+        number: 189
+    led176:
+        number: 190
+    led177:
+        number: 191
+
+    led180:
+        number: 192
+    led181:
+        number: 193
+    led182:
+        number: 194
+    led183:
+        number: 195
+    led184:
+        number: 196
+    led185:
+        number: 197
+    led186:
+        number: 198
+    led187:
+        number: 199
+
+    led190:
+        number: 200
+    led191:
+        number: 201
+    led192:
+        number: 202
+    led193:
+        number: 203
+    led194:
+        number: 204
+    led195:
+        number: 205
+    led196:
+        number: 206
+    led197:
+        number: 207
+
+PRBallSave:
+    pulseCoils: []
+    resetSwitches: []
+    stopSwitches:
+        # don't ball search if a flipper button is pressed
+        flipperLwL: closed
+        flipperLwR: closed
