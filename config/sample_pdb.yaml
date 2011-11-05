@@ -14,7 +14,7 @@ PRSwitches:
     #   number: <number>
     #   type: <type>
     #
-    #   <number> can be: SDx (Dedicated switch, x = P-ROC input) (valid x's are 1-32)
+    #   <number> can be: SDx (Dedicated switch, x = P-ROC input) (valid x's are 0-32)
     #                    Sx  (Matrix switch, x = column (P-ROC output) * 16 + row (P-ROC input),
     #                        Note - valid columns are 1-8, valid rows are 1-16
     #                    x   (P-ROC switch #, no translation necessary)
