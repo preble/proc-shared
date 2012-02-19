@@ -15,17 +15,25 @@ PRSwitches:
     #   type: <type>
     #
     #   <number> can be: SDx (Dedicated switch, x = P-ROC input) (valid x's are 0-32)
-    #                    Sx  (Matrix switch, x = column (P-ROC output) * 16 + row (P-ROC input),
-    #                        Note - valid columns are 1-8, valid rows are 1-16
-    #                    x   (P-ROC switch #, no translation necessary)
+    #                    c/r (Matrix switch, c = column, r = row
+    #                        Note - valid columns are 0-7, valid rows are 0-15
     #   <type> can be: 'NO' (normally open.  This is the default; so no need to use this)
     #                  'NC' (normally closed.  Common for optos)
 
+
+    # flippers shown below are examples of dedicated switches
     flipperLwR:
         number: SD0
 
     flipperLwL:
         number: SD1
+
+    # slings shown below are examples of matrix switches
+    slingl:
+        number: 0/0
+
+    slingr:
+        number: 0/1
 
 # Coil numbering format: Ax-By-z:
 
