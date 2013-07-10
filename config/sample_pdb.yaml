@@ -84,6 +84,20 @@ PRLamps:
     VUK_left_r:
         number: C-A4-B0-0:R-A4-B1-5
 
+# LED numbering format: Ax-Rr-Gg-Bb
+#
+# x = PD-LED board address
+# r = LED output number connected to the red input of an LED
+# g = LED output number connected to the green input of an LED
+# b = LED output number connected to the blue input of an LED
+PRLEDs:
+    rgb0:
+        number: A8-R0-G1-B2
+        polarity: False
+    rgb1:
+        number: A8-R3-G4-B5
+        polarity: False
+
 PRDriverGlobals:
     lamp_matrix_strobe_time: 200
     use_watchdog: True
